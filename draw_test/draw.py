@@ -59,7 +59,7 @@ transform = transforms.Compose([
 
     transforms.Resize((28, 28)) , # Resize to 28x28
     # transforms.Normalize(mean=(0.1307,), std=(0.3081,)),  # Normalize to [-1, 1]
-    transforms.Normalize(mean=(0.5,), std=(0.5,)),  # Normalize to [-1, 1]
+    transforms.Normalize(mean=(0.1307,), std=(0.3081,))  # Normalize to [-1, 1]
 
 ])
 
