@@ -1,10 +1,3 @@
-"""
-EECS 445 - Introduction to Machine Learning
-Winter 2025 - Project 2
-
-Helper file for common training functions.
-"""
-
 import itertools
 import os
 import matplotlib.pyplot as plt

@@ -1,10 +1,3 @@
-"""
-EECS 445 - Introduction to Machine Learning
-Winter 2025 - Project 2
-
-Utility functions
-"""
-
 import random
 from typing import Any
 
@@ -23,7 +16,6 @@ __all__ = [
 ]
 
 
-# DO NOT CHANGE THIS VARIABLE!
 SEED = 445
 
 

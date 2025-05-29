@@ -70,6 +70,7 @@ def model_predict(img_in):
 
     with torch.no_grad():
         output = model(img_tensor)
+        print(output)
         _, predicted = torch.max(output.data, 1)
 
         predicted = predicted.item()
@@ -131,6 +132,7 @@ while True:
         grayscale_array = grayscale_array.astype(np.float32)
         
         pred_lbl = model_predict(grayscale_array)
+
 
 
 
